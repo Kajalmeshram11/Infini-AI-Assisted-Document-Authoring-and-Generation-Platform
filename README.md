@@ -29,13 +29,13 @@ A full-stack web application that leverages AI to help users generate, refine, a
 
 ---
 
-### ✏️ Editor
-![Editor](Screenshots/editor.png)
+### ⚙️ Content Generation
+![Content Generation](Screenshots/generate.png)
 
 ---
 
-### ⚙️ Content Generation
-![Content Generation](Screenshots/generate.png)
+### ✏️ Editor
+![Editor](Screenshots/editor.png)
 
 ---
 
