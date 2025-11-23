@@ -21,7 +21,6 @@ from flask import send_from_directory
 
 app = Flask(__name__)
 CORS(app)
- init_db()
 
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'your-secret-key-change-in-production')
 app.config['DATABASE'] = os.environ.get('DATABASE_PATH', 'docgen.db')
@@ -709,5 +708,6 @@ def serve_static_files(path):
 
 if __name__ == '__main__':
    
+    init_db()
     app.run(debug=False, port=int(os.environ.get('PORT', 5000)))
 
