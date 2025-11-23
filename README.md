@@ -181,30 +181,6 @@ For each section, you can:
 - The system generates a properly formatted .docx or .pptx file
 - File automatically downloads to your computer
 
-## 🔧 API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user
-
-### Projects
-- `GET /api/projects` - Get all user projects
-- `POST /api/projects` - Create new project
-- `DELETE /api/projects/<id>` - Delete project
-
-### Sections
-- `GET /api/projects/<id>/sections` - Get project sections
-- `POST /api/projects/<id>/generate` - Generate content for all sections
-- `POST /api/sections/<id>/refine` - Refine section content
-- `POST /api/sections/<id>/feedback` - Update like/dislike
-- `POST /api/sections/<id>/comment` - Update comment
-
-### AI Features
-- `POST /api/ai/suggest-outline` - Generate AI outline
-
-### Export
-- `GET /api/projects/<id>/export` - Export document
-
 ## 🎨 Key Features Explained
 
 ### AI Content Generation
